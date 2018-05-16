@@ -1,3 +1,13 @@
+#whole {
+	position: relative;
+}
+
+#info {
+	position: absolute;
+	top: 50%;
+	transform: translateY(50%);
+}
+
 #about {
 	font-size: 135%;
 }
