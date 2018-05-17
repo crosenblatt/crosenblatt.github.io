@@ -1,3 +1,12 @@
+body {
+	background-color: #ffbf80;
+	padding: 100px;
+}
+
+.text {
+	color: white;
+}
+
 button {
 	font-size: 16px;
 }
@@ -10,6 +19,8 @@ button {
 	position: absolute;
 	top: 50%;
 	transform: translateY(50%);
+	background-color: #4d4d4d;
+	border: solid 3px black;
 }
 
 #about {
