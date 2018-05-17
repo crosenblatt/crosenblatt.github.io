@@ -11,6 +11,10 @@ button {
 	font-size: 16px;
 }
 
+#header {
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}
+
 #whole {
 	position: relative;
 }
@@ -21,6 +25,10 @@ button {
 	transform: translateY(50%);
 	background-color: #4d4d4d;
 	border: solid 3px black;
+}
+
+#paragraph {
+	font-family: Arial, Helvetica, Sans-Serif;
 }
 
 #about {
