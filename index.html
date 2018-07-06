@@ -1,38 +1,99 @@
-<!Doctype html>
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<link rel = "stylesheet" type = "text/css" href = "index.css">
-		<title>Chris Rosenblatt's Website</title>
+		<title>Chris Rosenblatt</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
-		<div id = "whole">
-			<div id = "info">
-				<center>
-					<div id = "header">
-						<h1 class = "text">Christopher J. Rosenblatt</h1>
-					</div>
+	<body class="is-preload">
 
-					<div id = "description">
-						<h4 class = "text">
-							<i>Computer nerd. Math lover. All-around cool guy.</i>
-						</h4>
-						<hr>
-					</div>
+		<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#">Chris Rosenblatt</a></h1>
+					<p>Purdue Computer Science/Math 2021<br />
+					</p>
+					<ul class="actions">
+						<li><a href="General Resume.pdf" class="button primary icon fa-download" download>My Resume</a></li>
+						<li><a href="#one" class="button icon fa-chevron-down scrolly">Learn More</a></li>
+					</ul>
+				</div>
+				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
+			</header>
 
-					<div id = "paragraph">
-						<p class = "text">
-							<b>About me:</b> I am a sophomore at Purdue University pursuing my B.S. in Computer Science and Mathematics. Currently, I am seeking a software engineering internship for Summer 2019. I am especially interested in application development for Android and iOS. <br> See the links below to check out my projects, view my resume, or send me an email.
-						</p>
-						<hr>
-					</div>
+		<!-- One -->
+			<section id="one" class="wrapper style2 special">
+				<header class="major">
+					<h2>
+						I am a computer science and math major at Purdue seeking a Summer internship for 2019.<br />
+						I am especially interested in Android and iOS mobile app development.<br />
+						See below for more info on my projects, and scroll all the way down to check out my github or send me an email.
+					</h2>
+				</header>
+			</section>
 
-					<div id = "links">
-						<button onclick = "window.location.href='mailto:rosenblc@purdue.edu'">Email Me</button>
-						<button onclick = "window.open('https://github.com/crosenblatt')">Github</button>
-						<button onclick = "window.location.href='General Resume.pdf'">Resume</button>
-					</div>
-				</center>
-			</div>
-		</div>
+		<!-- Two -->
+			<section id="two" class="wrapper">
+				<div class="inner alt">
+					<section class="spotlight">
+						<div class="image"><img src="images/pic01.png" alt="" /></div>
+						<div class="content">
+							<h3>Idle Clicker</h3>
+							<p>My first significant foray into iOS development, I created this game during Summer 2018. It is a clicker game featuring resource management, and a leveling system. It also has basic Firebase support, segues to multiple screens, and persistant locally saved data.</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/pic02.png" alt="" /></div>
+						<div class="content">
+							<h3>Wizard Duel</h3>
+							<p>At my first hackathon, my team worked together to learn Android development and create this app. It is a turn-based combat game with resource management mechanics and custom gestures. We struggled at the beginning to make even simple things work, but at the end of the hackathon we won Best Android App. My contribution included much of the backend for the app including writing the code for the gameplay loop and creating most of the actions.</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/pic03.png" alt="" /></div>
+						<div class="content">
+							<h3>Boilerfaves</h3>
+							<p>This Android app was created with Purdue's chapter of ACM SIGAPP. The idea is that a user sets their favorite foods (their "faves") and then gets notified when those foods are in a Purdue dining court. My contribution included much of the front end for the page where a user sets notification times, as well as implementing a filtering feature for the main screen. It is available on Google Play <a href = "https://play.google.com/store/apps/details?id=com.lshan.boilerfaves" target= "_blank">here</a>.</p>
+						</div>
+					</section>
+					<section class="special">
+						<ul class="icons labeled">
+							<!-- <li><span class="icon fa-camera-retro"><span class="label">Ipsum lorem accumsan</span></span></li>
+							<li><span class="icon fa-refresh"><span class="label">Sed vehicula elementum</span></span></li>
+							<li><span class="icon fa-cloud"><span class="label">Elit fusce consequat</span></span></li> -->
+							<li><span class="icon fa-comments-o"><span class="label"><a href = "mailto:rosenblc@purdue.edu">Email Me</a></span></span></li>
+							<li><span class="icon fa-github"><span class="label"><a href = "https://github.com/crosenblatt" target="_blank">Github</a></span></span></li>
+						</ul>
+					</section>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<!--
+				<ul class="icons">
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				-->
+				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">HTML5 UP</a></p>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
